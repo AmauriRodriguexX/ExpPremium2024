@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Exo2-Bold";
+    src: url("../fonts/Exo2-Bold.eot");
+    src: url("../fonts/Exo2-Bold.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: "Exo2-Regular.";
+    src: url("../fonts/Exo2-Regular..eot");
+    src: url("../fonts/Exo2-Regular..woff") format("woff");
+}
+
+body {
+    background-image: url('../img/background.jpg');
+    color: white;
+    font-family: "Exo2-Regular";
+}
+
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+body header img {
+    max-width: 100%;
+    width: 150px;
+}
+
+body header #menu {
+    padding: 8px 0;
+}
+
+body header.scroll {
+    background: white;
+    position: fixed;
+}
+header .dropdown-item{
+    text-align:right;
+}
+body header.scroll .text-light {
+    color: black !important;
+}
+
+body header .container {
+    padding: 5px 0;
+}
+#home{
+    overflow: hidden;
+}
+#home .row{
+    position: absolute;
+    top: calc(50% - 20%);
+}
+#home .row.lineaExperienciasVirtual{
+    position: absolute;
+    top: calc(100% - 1px);
+    right: 0;
+}
+#home .row.experiencias{
+    position: absolute;
+    top: calc(79% - 5%);
+    right: 0;
+}
+#home .row.lineaExperiencias{
+    position: absolute;
+    top: calc(62% - 1px);
+}
+#Experiencias {
+    padding: 100px 60px 100px 0px;
+}
+#Experiencias .experienciasVirtuales a:hover{
+    background-color:white;
+    color: black;
+    
+}
+#Experiencias .experienciasVirtuales a{
+    text-align:center;
+    text-decoration:none;
+    border-radius: 15px;
+    margin: 20px 80px;
+    display: block;
+    padding: 16px;
+    color:white;
+    border: 1px solid white;
+}
+#Experiencias .experienciasVirtuales{
+    padding: 50px 0px 50px 100px;
+}
+#Experiencias .experienciasVirtuales.dos{
+    padding: 150px 0px 50px 100px;
+}
+.lineaBlanca.extra{
+    width: 107%;
+}
+.lineaBlanca{
+    display: block;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+}
+.Desktop {
+    display: block;
+}
+
+.Mobile {
+    display: none !important;
+}
+section {
+    position:relative;
+    padding: 80px 0;
+}
+section > .row{
+    max-width:100%;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+h2{
+    padding-right: 2vw;
+    font-size: 3vw;
+}
+h3{
+    font-size: 3.5vw;
+}
+span{
+    font-size: 1.2vw;
+    font-family: "Exo2-Bold";
+}
+ul {
+    list-style-type: none;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+footer img {
+    max-width: 80px;
+}
+footer a{
+    text-decoration:none;
+    margin-right: 0px;
+}
+footer>div>div {
+    width: 800px;
+    padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    font-family: "Exo2-Regular";
+    font-size: 22px;
+    max-width: 100%;
+}
+
+footer>div>div>span {
+    padding: 0 0 20px 0;
+    display: block;
+}
+
+footer>div>div>span#copy {
+    padding: 0 0 20px 0;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "Exo2-Regular";
+}
+
+.gris{
+    color: #737373;
+}
+#Experiencias img{
+    width:70%;
+    margin: 0 auto;
+    display:block;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    right: 0;
+    left: initial;
+}
+@media (max-width: 768px) {
+    
+    header .navbar-nav .dropdown-menu {
+        padding: 0px 0 0px 0;
+        border: none;
+    }
+    
+    header .navbar-nav .dropdown-menu li {
+        padding: 20px 0 20px 40px;
+    }
+    header .dropdown-item{
+        text-align:left;
+    }
+    .Desktop {
+        display: none !important;
+    }
+    .Mobile {
+        display: block !important;
+    }
+    header .container .row {
+        max-width: 100%;
+    }
+    body header .container {
+        background: white;
+        padding: 0;
+        margin: 0 auto !important;
+        display: block;
+    }
+    .navbar-brand.Mobile {
+        padding-left: 20px;
+    }
+    span{
+        font-size: 16px;
+    }
+    h3{
+        font-size:26px;
+    }
+    header .dropdown-item{
+        text-align:left;
+    }
+    
+    #home .row.lineaExperiencias{
+        position: absolute;
+        top: calc(39% - 1px);
+    }
+    #home .row{
+        top: calc(50% - 34%);
+        width: 100%;
+        margin-left: 0;
+        overflow: hidden;
+    }
+    #home .row.experiencias{
+        position: absolute;
+        top: calc(97% - 5%);
+        right: 0;
+    }
+    #home #background{
+        padding-top: 250px;
+    }
+    #home .row.lineaExperiencias .lineaBlanca{
+        margin-left: -13px;
+        width: 40%;
+    }
+    h2 {
+        padding-right: initial;
+        font-size: 40px;
+        text-align:center;
+    }
+    #Experiencias .experienciasVirtuales a{
+        margin: 24px -1px 0px 0px;
+    }
+    #Experiencias .experienciasVirtuales.dos{
+        padding: 10px 0px 50px 100px;
+    }
+    
+    #Experiencias img{
+        width:100%;
+        margin: 0 auto;
+        display:block;
+    }
+    header .nav-link{
+        color:black !important;
+    }
+    footer img{
+        max-width:85px;
+    }
+}

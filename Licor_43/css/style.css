@@ -1,0 +1,637 @@
+@font-face {
+    font-family: "HistoryPro-Two";
+    src: url("../fonts/a71d6c25f3ffa983-subsetofHistoryPro-Two.eot");
+    src: url("../fonts/a71d6c25f3ffa983-subsetofHistoryPro-Two.woff") format("woff");
+}
+@font-face {
+    font-family: "TiemposText-Bold";
+    src: url("../fonts/TiemposText-Bold.eot");
+    src: url("../fonts/TiemposText-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "TiemposText-Regular";
+    src: url("../fonts/TiemposText-Regular.eot");
+    src: url("../fonts/TiemposText-Regular.woff") format("woff");
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "HistoryPro-Two";
+}
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+body header img{
+    max-width: 100%;
+    width: 150px;
+}
+body header #menu{
+    padding: 8px 0;
+}
+body header.scroll{
+    background:white;
+    position: fixed;
+}
+body header.scroll .text-light{
+    color:black !important;
+}
+body header .container{
+    padding: 5px 0;
+}
+body header .row{
+    max-width:100%;
+    margin: 0;
+}
+#experienciaSuperDrinksVirtual .row #textTwo .linea_blanca, #experienciaPrecencial .row #textTwo .linea_blanca{
+    margin-top:0;
+}
+.linea_blanca{
+    width: 100%;
+    height: 1px;
+    display: block;
+    margin-top: 28px;
+}
+#home{
+    position: relative;
+}
+#home img#background{
+    max-width: 100%;
+    width: 100%;
+}
+#home img#backgroundM{
+    max-width: 100%;
+}
+#home img#homeLogoImg{
+    position: absolute;
+    top: calc(45% - 50px);
+    left: calc(48% - 13%);
+    width: 30%;
+}
+#home img#homeTextImg{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 80px);
+    width: 32%;
+}
+
+#experiencias, #experienciaPrecencial, #experienciaSuperDrinksVirtual{
+    /* padding-left: 20px; */
+    position: relative;
+}
+#experienciaSuperDrinks{
+    position: relative;
+}
+#experiencias h2, #experienciaPrecencial h2, #experienciaSuperDrinksVirtual h2{
+    font-size: 90px;
+    padding: 50px 0px 20px 0px;
+    font-family: "HistoryPro-Two";
+}
+#experiencias .row, #experienciaPrecencial .row, #experienciaSuperDrinksVirtual .row{
+    margin: 0;
+    width: 100%;
+}
+#experiencias .row p{
+    font-size: 16px;
+    font-family: "TiemposText-Regular";
+}
+.row .linea{
+    position: absolute;
+    width: 30%;
+    bottom:0;
+}
+#listaIncluye .linea.right{
+    width: 10.5%;
+    right: calc(var(--bs-gutter-x) * -1);
+}
+.row .linea.right{
+    right: calc(var(--bs-gutter-x) * -0.5);
+}
+.row .linea.left{
+    left: 0;
+}
+#experiencias .row #txtExperienceDiv .linea_blanca{
+    margin-top: 40px;
+}
+#experiencias .row .titleBold{
+    font-family: "TiemposText-Regular";
+    font-size: 50px;
+    display: block;
+}
+#experiencias .row .txtExperiencias{
+    font-family: "HistoryPro-Two";
+    font-size: 51px;
+    display: block;
+}
+#contenidoExperiencias{
+    position: absolute;
+    /* top: 0; */
+    /* width: calc(100% - 20px); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#experiencias .row #txtExperienceDiv{
+    padding: 50px 0 20px 0;
+}
+#logo_blanco_bottom{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+#experiencias-dobel{
+    position: absolute;
+    bottom: 0;
+}
+#experienciaLicor{
+    position:relative;
+}
+#background_c6{
+    max-width:100%;
+    width: 100%;
+}
+#titleExperience{
+    position: absolute;
+    top: calc(70% - 80px);
+    left: 2%;
+    font-size: 40px;
+    font-family: "HistoryPro-Two";
+    width: 500px;
+    max-width: 95%;
+}
+#experienciaSuperDrinks #titleExperience{
+    top: calc(29% - 80px);
+}
+
+#titleExperience img{
+    width: 100%;
+}
+#experienciaC6_logo_blanco_bottom, #experienciaC62_logo_blanco_bottom{
+    position: absolute;
+    bottom: 30px;
+    right: 3%;
+    width: 10%;
+}
+#experiencias-dobel_c6, #experiencias-dobel_c62{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 35px;
+}
+#titleExperienceVitual{
+    font-size: 34px;
+    font-family: "TiemposText-Regular";
+    padding-top: 45px;
+}
+#background_experienciaPrecencial, #background_experienciaPrecencialMobile, #background_experiencia, #background_experienciaMobile{
+    width: 100%;
+    /* margin-left: -18px; */
+    min-height: 1050px;
+}
+#experienciaPrecencialText{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ #experienciaPrecencial .row p{
+    font-size: 16px;
+    font-family: "TiemposText-Regular";
+    margin: 0;
+}
+#experienciaPrecencial .row .titleBold{
+    font-family: "TiemposText-Regular";
+    font-size: 30px;
+    display: block;
+}
+#experienciaPrecencial #listaIncluye .row  .titleBold{
+    font-size:20px;
+}
+#botom_experiencias-dobel_c62{position: absolute;bottom: 0px;width: calc(100% - 20px) !important;}
+#botom_experiencias-dobel_c62 .boldtxt{
+    font-size: 22px;
+    font-family: "TiemposText-Bold";
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+#experienciaPrecencial .row #textTwo p{
+    padding: 0;
+}
+#background_contacto{
+    max-width: 100%;
+    width: 100%;
+}
+#contact{
+    position: relative;
+}
+.modal-dialog{
+    max-width: 90%;
+}
+#contact form{
+    position: absolute;
+    /* top: 050px; */
+    margin: 0 auto;
+    display: block;
+    /* left: calc(50% - 250px); */
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contact form span{
+    text-align: center;
+    font-family: "HistoryPro-Two";
+    font-size: 30px;
+    display: block;
+    margin-bottom: 50px;
+}
+#contact form input, #contact form textarea{
+    display:block;
+    background: black;
+    box-shadow: none;
+    border: solid 1px #ccc;
+    margin: 20px 0;
+    padding: 15px 10px;
+    width: 100%;
+    font-family: "TiemposText-Regular";
+}
+#contact form button{
+    width:100%;
+    font-family: "TiemposText-Bold";
+    font-size: 26px;
+    padding: 10px 0;
+    border: none;
+    margin-top: 40px;
+    background: #d8b003;
+    color: white;
+}
+footer{
+    background-color: white;
+    color: black;
+}
+footer img{
+    max-width: 50px;
+}
+footer > div > div{
+    width: 500px;
+    padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    font-family: "TiemposText-Regular";
+    font-size: 22px;
+}
+
+footer > div > div > span{
+    padding: 0 0 20px 0;
+    display: block;
+}
+footer > div > div > span#copy{
+    padding: 0 0 20px 0;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "TiemposText-Regular";
+}
+.relative{
+    position: relative;
+}
+#unlocked video{
+    width:100%;
+}
+.Desktop{
+    display: block;
+}
+.Mobile{
+    display: none;
+}
+    #experiencias #botellas .listaBotellas{
+        text-align:center;
+    }
+#experiencias #botellas .listaBotellas > div{
+    display: inline-block;
+    padding:40px;
+}
+#TerminosCondicionesModal{
+    color: black;
+}
+
+    #TerminosCondicionesModal .modal-header > div{
+        display:block;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 39px;
+        border-bottom: solid 1px black;
+        padding-bottom: 15px;
+        font-family: "TiemposText-Bold";
+    }
+    .modal-header .btn-close{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: 30px;
+        top: 23px;
+    }
+    .modal-header, .modal-body, .modal-footer{
+        position:relative;
+        border: none;
+        padding: 20px 50px;
+    }
+.modal-body span{
+    display:block;
+    padding:10px 0;
+    font-family: "TiemposText-Regular";
+}
+
+    .btnTerminosCondiciones{
+        text-align:center;
+        padding: 20px 15px;
+        font-family: "TiemposText-Bold";
+        border-radius: 0;
+        font-size: 12px;
+        color: white !important;
+        background: #d7ab00 !important;
+        border: none;
+    }
+.divTerminosCondiciones{
+    text-align:center;
+}
+modal-dialog{
+    max-width: 90%;
+}
+#lineaExperienciaPresencial{
+    position: relative;
+}
+#experienciaPrecencialText h3{
+    color:#737373;
+    font-size: 37px;
+}
+.colorYelow{
+    color:#d7ab00;
+}
+#experienciaPrecencialText .txtExperiencias{
+    font-size: 20px;
+}
+#experienciaPrecencialText .linea_blanca{
+    width: 60%;
+}
+#listaIncluye .row span, #listaIncluye .row img{
+    display: inline-block !important;
+    width: auto;
+    padding: 0px 2px;
+    vertical-align: bottom;
+    font-size: 27px;
+    font-family: "TiemposText-Regular";
+}
+#listaIncluye .row img.linea_blanca{
+    width: 50px;
+    margin-top: 16px;
+}
+.titleExtraBold{
+    display: block;
+    font-family: "TiemposText-Regular";
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#textTwo{
+    padding-top: 60px;
+}
+.disclaimer{
+    font-size: 16px;
+    font-family: "TiemposText-Regular";
+    padding-top: 50px;
+}
+
+@media (max-width:768px) {
+    .Desktop{
+        display: none;
+    }
+    .Mobile{
+        display: block;
+    }
+    #titleExperience{
+        font-size: 24px;
+    }
+    #home img#homeLogoImg{
+        top: 9%;
+        left: calc(50% - 50%);
+        width: 100%;
+    }
+    #home img#homeTextImgM{
+        width: 55%;
+        position: absolute;
+        right: 0px;
+        top: calc(48% - 80px);
+    }
+    body header{
+        position:relative;
+        background:white;
+    }
+    body header .text-light{
+        color:black !important;
+        padding: 20px 0;
+        font-family: "HistoryPro-Two";
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        padding: 0 40px 0 20px;
+        border: none;
+    }
+    
+    .navbar-brand.Mobile{
+        padding:0 0px;
+        border: none;
+    }
+    #menuItems{
+        padding-top:20px;
+        border-top:solid 1.5px black;
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .dropdown-menu{
+        border:none !important;
+    }
+    .dropdown-item{
+        padding-top:10px;
+        padding-bottom: 20px;        
+        width: 300px;
+        text-wrap: wrap;
+    }
+    #experiencias .row .linea.right{
+        position:relative;
+        padding: 79px 0 0px 0;
+        height: 82px;
+        width: 50%;
+        margin: 0 -9px 0 auto;
+        display: block;
+    }
+    #experiencias h2, #experienciaPrecencial h2, #experienciaSuperDrinksVirtual h2{
+        font-size:40px;
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+    }
+    #experienciaPrecencial h2{
+        padding: 20px 0 0 0;
+    }
+    #experiencias .row p{
+        font-size: 16px;
+        text-align: center;
+        width: 90%;
+        margin: 0 5%;
+    }
+    #experiencias .row .titleBold{
+        font-size: 40px;
+    }
+    #experiencias .row .txtExperiencias:last-child{
+        margin-top: 0px;
+    }
+    #experiencias .row .txtExperiencias{
+        font-size: 25px;
+        margin-top: 12px;
+    }
+    #experiencias #botellas{
+        margin: 30px 0 80px 0;
+    }
+    #experiencias #botellas .listaBotellas{
+        margin-top: 125px;
+        padding: 0;
+    }
+    #experiencias #botellas .listaBotellas > div{
+        display:block;
+    }
+    .titleExtraBold{
+        font-size:40px;
+    }
+    .slick-dots li button:before{
+        color:white;
+        font-size: 10px;
+    }
+    .slick-dots li.slick-active button:before{
+        color:white;
+    }
+    .slick-slide img{
+        margin:0 auto;
+    }
+    .slick-slide.slick-active{
+        opacity: 1;
+    }
+    .slick-slide{
+        opacity: 0.5;
+    }
+    .slick-slide img{
+        height: 260px;
+        margin-top: 18px;
+    }
+    .slick-slide:last-child.slick-active img{
+        margin: 0 auto 0 0;
+    }
+    .slick-slide.slick-active img
+    {
+        height: auto;
+        margin-top: 0px;
+        margin: 0 31px 0 auto;
+    }
+    #experienciaPrecencial #titleExperienceVitual .txtExperiencias{
+        font-size: 20px;
+    }
+    #experienciaPrecencial .row #titleExperienceVitual .titleBold{
+        font-size: 20px;
+    }
+    #experienciaPrecencial .row #titleExperienceVitual .row > div{        
+        padding:0;
+    }
+    #experienciaPrecencial .row #titleExperienceVitual .row > div:nth-child(2){
+        padding-right: 15px;
+    }
+    #contact form{
+        width: 90%;
+    }
+    footer > div > div{
+        width:100%;
+    }
+    #experienciaPrecencial .row p:first-child{
+        padding: 20px 0;
+        text-align: center;
+    }
+    #experienciaPrecencial .row p{
+        text-align: center;        
+    }
+    #background_experienciaPrecencial, #background_experienciaPrecencialMobile, #background_experiencia{
+        height: 1400px;
+    }
+    #background_experienciaMobile{
+        height: 1400px;
+    }
+    #experienciaPrecencial .row #textTwo .row, #experienciaSuperDrinksVirtual .row #textTwo .row{
+        position: relative !important;
+    }
+    #textTwo{
+        padding-top:20px;
+    }
+    #titleExperienceVitual .txtExperiencias{
+        font-size: 16px;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    #titleExperienceVitual .titleBold{
+        font-size: 20px;
+    }
+    #experienciaPrecencialText p:first-child{
+        text-align:center;
+    }
+    #experienciaSuperDrinksVirtual .row #textTwo .row > div{
+        text-align:center;
+    }
+    .row .linea.left{
+        left: -11px;
+    }
+    #listaIncluye .row img.linea_blanca{
+        width:20px;
+    }
+    #listaIncluye .row span,
+    #experienciaPrecencial #listaIncluye .row .titleBold{
+        font-size: 15px;
+        /* padding: 10px 0; */
+    }
+    
+    #listaIncluye .row span.txtExperiencias{
+        width: 90%;
+        padding: 0px 0 15px 0;
+    }
+    .divTerminosCondiciones{
+        font-size: 14px;
+        padding-bottom: 50px;
+    }
+    #textTwo > div > div{
+        width: 200px;
+        margin: 0 auto;
+    }
+    #textTwo > div > span{
+        text-align: center !important;
+        font-size: 35px !important;
+    }
+    #titleExperience{
+        width: 50%;
+        left: auto;
+        right: 10%;
+        top: calc(22% - 80px);
+    }
+    #experienciaPrecencialText .txtExperiencias{
+        padding-bottom: 90px;
+        font-size: 16px;
+        display: block;
+    }
+    #experienciaPrecencialText h3{
+        text-align:center;
+    }
+    .modal-dialog{
+        margin:0 auto;
+    }
+}

@@ -1,0 +1,575 @@
+@font-face {
+    font-family: "Superclarendon-Bold";
+    src: url("../fonts/Superclarendon-Bold.eot");
+    src: url("../fonts/Superclarendon-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Cinzel-Regular";
+    src: url("../fonts/Cinzel-Regular.eot");
+    src: url("../fonts/Cinzel-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "SuperclarendonLt";
+    src: url("../fonts/SuperclarendonLt.eot");
+    src: url("../fonts/SuperclarendonLt.woff") format("woff");
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Cinzel-Regular";
+}
+
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+body header img {
+    max-width: 100%;
+    width: 150px;
+}
+
+body header #menu {
+    padding: 8px 0;
+}
+
+body header.scroll {
+    background: white;
+    position: fixed;
+}
+header .dropdown-item{
+    text-align:right;
+}
+body header.scroll .text-light {
+    color: black !important;
+}
+
+body header .container {
+    padding: 5px 0;
+}
+
+.Desktop {
+    display: block;
+}
+
+.Mobile {
+    display: none !important;
+}
+
+#home {
+    position: relative;
+}
+
+#home #background{
+    max-width: 100%;
+    width: 100%;
+}
+section {
+    position:relative;
+}
+section > .row{
+    max-width:100%;
+}
+img{
+    width: 100%;
+}
+h2{
+    padding-right: 2vw;
+    font-size: 3vw;
+}
+h3{
+    font-size: 3.5vw;
+}
+span{
+    font-size: 1.2vw;
+    font-family: "SuperclarendonLt";
+}
+ul {
+    list-style-type: none;
+}
+.text-gold{
+    color: #d9b003 !important;
+}
+#homeLogoImg{
+    width:20vw;
+    margin: 0 auto;
+    display:block;
+}
+#divCataMaridaje{
+    position: absolute;
+    top: calc(50% - 185px);
+    margin-right: 3.5vw;
+}
+#divExperiencia{
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 570px);
+    text-align: center;
+    width: 1200px;
+}
+#divJourney{
+    position: absolute;
+    top: calc(50% - 32%);
+    left: calc(30% - 22%);
+    text-align: center;
+}
+#divJourney h3{
+    padding-bottom:60px;
+}
+#divJourney h4{
+    font-size: 1.4vw;
+    padding-top: 25px;
+    font-weight: bolder;
+}
+#divJourney .row{
+    max-width: 100%;
+}
+#divJourney img{
+    width:auto;
+    /* max-width: 79%; */
+    max-height: 100px;
+    margin-bottom: 20px;
+}
+#divMaridaje{
+    position: absolute;
+    top: calc(50% - 296.5px);
+    left: 0;
+}
+#divQueIncluye{
+    position: absolute;
+    top: calc(50% - 25%);
+    left: calc(30% - 19%);
+}
+#divQueIncluye UL{
+    padding:0;
+}
+#divQueIncluye li{
+    font-size:1.5vw;
+    text-align:left;
+    padding:10px 0;
+    font-family: "SuperclarendonLt";
+}
+#LogoImg{
+    padding-bottom:3vw;
+    width: auto;
+    max-width: 160px;
+}
+#textExperiencia{
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
+}
+.btnTerminosCondiciones{
+    border:none;
+    border-radius:0;
+    background: #d9b003;
+    color:white;
+    font-weight:900;
+    padding: 1vw 2vw;
+}
+.iconoLinea{
+    width: 90%;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 28%;
+}
+#contact {
+    position: relative;
+}
+
+#contact form {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+#contact form span {
+    text-align: center;
+    display: block;
+    font-family: "Superclarendon-Bold";
+    font-size: 2vw;
+}
+
+#contact form input,
+#contact form textarea {
+    display: block;
+    background: transparent;
+    box-shadow: none;
+    margin: 1vw 0;
+    width: 100%;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 10px 10px;
+    font-family: "SuperclarendonLt";
+}
+
+#contact form input:focus-visible,
+#contact form textarea:focus-visible {
+    outline: none;
+}
+
+#contact form button {
+    width:100%;
+    font-family: "Superclarendon-Bold";
+    font-size: 14px;
+    padding: 1vw 3vw;
+    border: none;
+    margin-top: 40px;
+    background: #d9b003;
+    color: white;
+}
+
+#background_contacto,
+#background_contactoM {
+    max-width: 100%;
+    width: 100%;
+}
+
+#maridaje #botellas .listaBotellas{
+        text-align:center;
+    }
+#maridaje #botellas .listaBotellas span{
+    font-size: 1vw;
+}
+#maridaje #botellas .listaBotellas > div{
+    display: inline-block;
+    padding: 0 10px;
+    width: 24%;
+    vertical-align: top;
+}
+#maridaje #botellas .listaBotellas > div > img{
+    padding:30px;
+    max-height: 400px;
+    width: auto;
+}
+#maridaje #botellas .listaBotellas > div strong{
+    font-size: 1.2vw;
+    font-family: "Cinzel-Regular";
+}
+#unlocked video {
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+footer img {
+    max-width: 50px;
+}
+footer a{
+    text-decoration:none;
+    margin-right: 30px;
+}
+footer>div>div {
+    width: 500px;
+    padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    font-family: "Cinzel-Regular";
+    font-size: 22px;
+    max-width: 100%;
+}
+
+footer>div>div>span {
+    padding: 0 0 20px 0;
+    display: block;
+}
+
+footer>div>div>span#copy {
+    padding: 0 0 20px 0;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "SuperclarendonLt";
+}
+
+#TerminosCondicionesModal{
+    color: black;
+}
+    #TerminosCondicionesModal .modal-header > div{
+        display:block;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 39px;
+        border-bottom: solid 1px black;
+        padding-bottom: 15px;
+    font-family: "Superclarendon-Bold";
+    }
+    .modal-header .btn-close{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: 30px;
+        top: 23px;
+    }
+    .modal-header, .modal-body, .modal-footer{
+        font-family: "Cinzel-Regular";
+        position:relative;
+        border: none;
+        padding: 20px 50px;
+    }
+.modal-body span{
+    display:block;
+    padding:10px 0;
+    font-family: "SuperclarendonLt";
+}
+.modal-dialog{
+    max-width:90%;
+    /* margin: auto; */
+}
+#home >.row .top-50{
+    margin-top: -4%;
+}
+#home >.row .top-50:nth-child(2){
+    padding-right: 13%;
+}
+@media (max-width: 768px) {
+    .Desktop {
+        display: none !important;
+    }
+
+    .Mobile {
+        display: block !important;
+    }
+
+    header .container .row {
+        max-width: 100%;
+    }
+
+    body header .container {
+        background: white;
+        padding: 0;
+        margin: 0 auto !important;
+        display: block;
+    }
+
+    .navbar-brand.Mobile {
+        padding-left: 20px;
+    }
+    #contact form {
+        width: 90%;
+        top: 49%;
+    }
+
+    #contact form input,
+    #contact form textarea {
+        margin: 2vw 0;
+    }
+
+    #contact form span {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        /* padding-top: 100px; */
+    }
+
+    #contact form button {
+        font-size: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #contact form textarea {
+        height: 60px;
+    }
+
+    header .container .nav-link {
+        color: black !important;
+        text-align: left;
+        padding: 20px 0 20px 40px;
+    }
+
+    header .navbar-nav .dropdown-menu {
+        padding: 0px 0 0px 0;
+        border: none;
+    }
+
+    header .navbar-nav .dropdown-menu li {
+        padding: 20px 0 20px 40px;
+    }
+    #maridaje #botellas .listaBotellas > div{
+        width: 100%;
+        min-height: 700px;
+        /* margin-left: 15px; */
+    }
+    
+    #divExperiencia{
+        left: 5%;
+        top: 150px;
+        max-width: 90%;
+    }
+    .modal-dialog{
+        margin: 0 auto;
+    }
+    #home .position-absolute{
+        width: 90%;
+        left: 5%!important;
+    }
+    #home .position-absolute h2{
+        font-size: 27px;
+        padding-top: 150px;
+    }    
+    #homeLogoImg#homeLogoImg{
+        width: 60%;
+    }
+    #LogoImg{
+        margin: 0 auto;
+        display:block;
+        padding-bottom: 40px;
+    }
+    #divCataMaridaje h3{
+        font-size: 26px;
+        text-align: center;
+    }
+    #divCataMaridaje h3.text-gold{
+        padding: 30px 0;
+    }
+    #divCataMaridaje{
+        margin: 0 auto;
+        top: 100px;
+        width: 90%;
+        left: 5%;
+    }
+    #divCataMaridaje br{
+        display:none;
+    }
+    #divCataMaridaje > div{
+        text-align:center;
+    }
+    span{
+        font-size: 15px;
+    }
+    #cataMaridaje picture img{
+        min-height: 900px;
+    }
+    h3{
+        font-size:26px;
+    }
+    #textExperiencia{
+        width:80%;
+    }
+    #divJourney h4{
+        font-size: 20px;
+    }
+    #divJourney .position-relative img{
+        display:none;
+    }
+    #divJourney img{
+        width:50%;
+    }
+    #divJourney > div.row:nth-child(2) > div{
+        padding: 10px 0;
+        margin-left: 15px;
+    }
+    #divJourney{
+        top:100px;
+        left: 5%;
+        width: 90%;
+        text-align: center;
+    }
+    #divJourney h3{
+        padding-bottom: 20px;
+        text-align: center;
+        display: block;
+        margin: 0 0 0px 40px;
+        font-size: 30px;
+    }
+    #journey #backgroundCataMaridaje{
+        height: 1080px;
+    }
+    #divJourney > div.row:nth-child(2) > div br{
+        display:none;
+    }
+    #divMaridaje{
+        text-align: center;
+        width: 90%;
+        left: 8%;
+        top: 100px;
+    }
+    #maridaje > picture > img{
+        height:1000px
+    }
+    #botellas img{
+        height: 300px;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    #maridaje #botellas .listaBotellas > div strong{
+        font-size: 20px;
+    }
+    #maridaje #botellas .listaBotellas span{
+        font-size:16px;
+    }
+    .slick-dots li.slick-active button:before,.slick-dots li button:before{
+        color: white;
+        font-size: 15px;
+    }
+    .slick-dots{
+        bottom: 384px;
+        width: 100%;
+        margin-left: -12px;
+    }
+    .slick-dots li{
+        padding:0;
+        margin: 0;
+    }
+    #maridaje #botellas .listaBotellas > div .slick-slide:not(.slick-active) strong, #maridaje #botellas .listaBotellas > div .slick-slide:not(.slick-active) span{
+        display:none;
+    }
+    #maridaje #botellas .listaBotellas > div .slick-slide:not(.slick-active) img{
+        opacity:0.5;
+        height: 250px;
+        margin-top: 50px;
+    }
+    #divQueIncluye{
+        width: 80%;
+        left: 13%;
+        text-align: center;
+        top: 18%;
+    }
+    #maridaje #botellas .listaBotellas{
+        padding-top:80px;
+    }
+    #divQueIncluye li{
+        font-size: 14px;
+    }
+    #divQueIncluye .text-gold{
+        font-size: 35px;
+        text-align: left;
+    }
+    .btnTerminosCondiciones{
+        font-size: 14px;
+        padding: 20px;
+    }
+    #home >.row .top-50{
+        margin-top: -26%;
+    }
+    #home >.row .top-50:nth-child(2){
+        padding-right:0;
+    }
+    body header img{
+        width:100px;
+    }
+    header .dropdown-item{
+        text-align:left;
+    }
+}

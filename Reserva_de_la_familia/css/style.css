@@ -1,0 +1,520 @@
+@font-face {
+    font-family: "MinionPro-Bold";
+    src: url("../fonts/MinionPro-Bold.eot");
+    src: url("../fonts/MinionPro-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MinionPro-Regular";
+    src: url("../fonts/MinionPro-Regular.eot");
+    src: url("../fonts/MinionPro-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MinionPro-It";
+    src: url("../fonts/MinionPro-It.eot");
+    src: url("../fonts/MinionPro-It.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LamarPen";
+    src: url("../fonts/LamarPen.eot");
+    src: url("../fonts/LamarPen.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MinionPro-Medium";
+    src: url("../fonts/MinionPro-Medium.eot");
+    src: url("../fonts/MinionPro-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MinionPro-Semibold";
+    src: url("../fonts/MinionPro-Semibold.eot");
+    src: url("../fonts/MinionPro-Semibold.woff") format("woff");
+}
+
+body {
+    background-color: #8b6f4e;
+    color: black;
+    font-family: "MinionPro-Regular";
+}
+
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+body header img {
+    max-width: 100%;
+    width: 150px;
+}
+
+body header #menu {
+    padding: 8px 0;
+}
+
+body header.scroll {
+    background: white;
+    position: fixed;
+}
+header .dropdown-item{
+    text-align:right;
+}
+body header.scroll .text-light {
+    color: black !important;
+}
+
+body header .container {
+    padding: 5px 0;
+}
+
+.Desktop {
+    display: block;
+}
+
+.Mobile {
+    display: none !important;
+}
+
+#home {
+    position: relative;
+}
+
+#home #background{
+    max-width: 100%;
+    width: 100%;
+}
+#home h2{
+    font-size: 4.5vw;
+    margin-left: 5%;
+}
+#home .absoluteDiv{
+    top: 20%;
+}
+.absoluteDiv{
+    position: absolute;
+    top: 5%;
+}
+section {
+    position:relative;
+}
+section > .row{
+    max-width:100%;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+h2{
+    padding-right: 2vw;
+    font-size: 3vw;
+}
+h3{
+    font-size: 3.5vw;
+}
+span{
+    font-size: 1.2vw;
+    font-family: "MinionPro-Medium";
+}
+ul {
+    list-style-type: none;
+}
+.incluye ul li::before {
+    content: "-";
+    color: #8b6f4e;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;
+    margin-left: -1em;
+    font-size: 34px;
+}
+
+strong{
+    font-family: "MinionPro-Bold";
+}
+.text-brown{
+    color:#8b6f4e;
+}
+.kit .img{
+    margin-left: -3%;
+}
+.kit .subTitle{
+    font-size: 2vw;
+}
+.kit .text-brown{
+    font-size: 3.5vw;
+    font-family: "MinionPro-It";
+    font-weight: bold;
+}
+#kit .absoluteDiv{
+    top: calc(50% - 40%);
+}
+#incluye .absoluteDiv{
+    top: calc(50% - 45%);
+}
+.incluye li{
+    font-size: 1.6vw;
+    margin-bottom: 10px;
+    font-family: "MinionPro-Regular";
+}
+.incluye li span{
+    font-size: 1.6vw;
+    font-family: "MinionPro-It";
+}
+.LamarPen{
+    font-family: "LamarPen";
+    font-size: 2.5vw;
+    margin-left: 4%;
+}
+.btnTerminosCondiciones{
+    background-color:#8b6f4e;
+    color:white;
+    border-radius:0;
+    width: 60%;
+    padding: 20px;
+}
+#contact {
+    position: relative;
+}
+
+#contact form {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+
+#contact form span {
+    text-align: center;
+    display: block;
+    font-family: "MinionPro-Bold";
+    font-size: 2vw;
+    color: white;
+}
+
+#contact form input,
+#contact form textarea {
+    display: block;
+    background: transparent;
+    box-shadow: none;
+    margin: 1vw 0;
+    width: 100%;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 10px 10px;
+    font-family: "MinionPro-Regular";
+}
+::placeholder {
+  color: #ccc;
+}
+#contact form input:focus-visible,
+#contact form textarea:focus-visible {
+    outline: none;
+}
+
+#contact form button {
+    width:100%;
+    font-family: "MinionPro-Bold";
+    font-size: 14px;
+    padding: 1vw 3vw;
+    border: none;
+    margin-top: 40px;
+    background: white;
+    color: #8b6f4e;
+}
+
+#background_contacto,
+#background_contactoM {
+    max-width: 100%;
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+footer img {
+    max-width: 50px;
+}
+footer a{
+    text-decoration:none;
+    margin-right: 30px;
+}
+footer>div>div {
+    width: 500px;
+    padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    font-family: "MinionPro-Regular";
+    font-size: 22px;
+    max-width: 100%;
+}
+
+footer>div>div>span {
+    padding: 0 0 20px 0;
+    display: block;
+}
+
+footer>div>div>span#copy {
+    padding: 0 0 20px 0;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "MinionPro-It";
+}
+
+#TerminosCondicionesModal{
+    color: black;
+}
+    #TerminosCondicionesModal .modal-header > div{
+        display:block;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 39px;
+        border-bottom: solid 1px black;
+        padding-bottom: 15px;
+    font-family: "MinionPro-Bold";
+    }
+    .modal-header .btn-close{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: 30px;
+        top: 23px;
+    }
+    .modal-header, .modal-body, .modal-footer{
+        font-family: "MinionPro-Regular";
+        position:relative;
+        border: none;
+        padding: 20px 50px;
+    }
+.modal-body span{
+    display:block;
+    padding:10px 0;
+    font-family: "MinionPro-It";
+}
+.modal-dialog{
+    max-width:90%;
+    /* margin: auto; */
+}
+#home >.row .top-50{
+    margin-top: -4%;
+}
+#home >.row .top-50:nth-child(2){
+    padding-right: 13%;
+}
+.LamarPen.text-brown.puntos{
+    font-size: 6vw;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+@media (max-width: 768px) {
+    .Desktop {
+        display: none !important;
+    }
+
+    .Mobile {
+        display: block !important;
+    }
+
+    header .container .row {
+        max-width: 100%;
+    }
+
+    body header .container {
+        background: white;
+        padding: 0;
+        margin: 0 auto !important;
+        display: block;
+    }
+
+    .navbar-brand.Mobile {
+        padding-left: 20px;
+    }
+    #contact form {
+        width: 90%;
+        top: 49%;
+    }
+
+    #contact form input,
+    #contact form textarea {
+        margin: 2vw 0;
+    }
+
+    #contact form span {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        /* padding-top: 100px; */
+    }
+
+    #contact form button {
+        font-size: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    #contact form textarea {
+        height: 60px;
+    }
+
+    header .container .nav-link {
+        color: black !important;
+        text-align: left;
+        padding: 20px 0 20px 40px;
+    }
+
+    header .navbar-nav .dropdown-menu {
+        padding: 0px 0 0px 0;
+        border: none;
+    }
+
+    header .navbar-nav .dropdown-menu li {
+        padding: 20px 0 20px 40px;
+    }
+    .modal-dialog{
+        margin: 0 auto;
+    }
+    #home .position-absolute{
+        width: 90%;
+        left: 5%!important;
+    }
+    #home .position-absolute h2{
+        font-size: 27px;
+        padding-top: 150px;
+    }    
+    #homeLogoImg#homeLogoImg{
+        width: 60%;
+    }
+    #LogoImg{
+        margin: 0 auto;
+        display:block;
+        padding-bottom: 40px;
+    }
+    #home h2{
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .slick-slide img{
+        width: 34%;
+        margin: 0 auto;
+    }
+    .incluye li span{
+        font-size:14px;
+    }
+    .incluye li{
+        font-size: 16px;
+        margin: 0;
+        line-height: 1;
+    }
+    .kit .subTitle{
+        font-size: 22px;
+        font-family: "MinionPro-Semibold";
+    }
+    span{
+        font-size: 16px;
+    }
+    #cataMaridaje picture img{
+        min-height: 900px;
+    }
+    body header{
+        position: relative;
+    }
+    #home .absoluteDiv{
+        top: 0;
+        width: 100%;
+        left: 0;
+        padding: 0;
+        margin: 0;
+    }
+    h3{
+        font-size:26px;
+    }
+    #botellas img{
+        height: 300px;
+        width: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    #maridaje #botellas .listaBotellas > div strong{
+        font-size: 20px;
+    }
+    #maridaje #botellas .listaBotellas span{
+        font-size:16px;
+    }
+    .btnTerminosCondiciones{
+        width:100%;
+    }
+    .LamarPen{
+        font-size: 25px;
+    }
+    
+    .LamarPen.text-brown.puntos{
+        font-size: 35px;
+    }
+    .kit .img{
+        margin: 0 auto;
+        margin-left: 12%;
+    }
+    .slick-dots li.slick-active button:before,.slick-dots li button:before{
+        color: #8b6f4e;
+        font-size: 15px;
+    }
+    .incluye ul.slick-dots li::before{
+        contain: "" !important;
+        display: none;
+    }
+    .slick-dots{
+        bottom: -30px;
+        width: 100%;
+        /* margin-left: -12px; */
+    }
+    section > .row{
+        margin: 0;
+    }
+    #incluye .absoluteDiv{
+        top: calc(50% - 43%);
+    }
+    #kit .absoluteDiv{
+        top: calc(50% - 43%);
+    }
+    .slick-dots li{
+        padding:0;
+        margin: 0;
+    }
+    #home >.row .top-50{
+        margin-top: -26%;
+    }
+    #home >.row .top-50:nth-child(2){
+        padding-right:0;
+    }
+    body header img{
+        width:60px;
+    }
+    header .dropdown-item{
+        text-align:left;
+    }
+    .kit .text-brown{
+        font-size: 21px;
+        margin-top: 16px;
+        font-family: "MinionPro-Semibold";
+    }
+    #backgroundIncluye{
+        min-height:1100px;
+    }
+    #backgroundKit{
+        min-height:760px
+    }
+}

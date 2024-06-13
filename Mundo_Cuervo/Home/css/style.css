@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Livvic-Bold";
+    src: url("../font/Livvic-Bold.eot");
+    src: url("../font/Livvic-Bold.woff") format("woff");
+}
+body {
+    font-family: "Livvic-Light";
+    font-size: 1.2vw;
+}
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    margin-top: 2vw;
+}
+
+body header img {
+    max-width: 100%;
+    width: 150px;
+}
+
+body header #menu {
+    padding: 8px 0;
+}
+
+body header.scroll {
+    background: white;
+    position: fixed;
+    margin-top: 0;
+}
+img{
+    width: 100%;
+}
+h2{
+    padding-right: 2vw;
+    font-size: 3vw;
+}
+h3{
+    font-size: 3.5vw;
+}
+span{
+    font-size: 1.2vw;
+    font-family: "Livvic-Regular";
+}
+.row{
+    margin: 0;
+}
+.col-md-6{
+    padding: 0;
+}
+#joseCuervoExpress,
+#laRojeña{
+    position: relative;
+}
+.imgJoseCuervoExpress,
+.imgLaRojeña{
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+    left: calc(50% - 317.5px);
+}
+.btnBlanco{
+    position: absolute;
+    bottom: 15%;
+    width: 500px;
+    left: calc(50% - 250px);
+    background: white;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 40px;
+    text-decoration: none;
+    padding: 10px 0;
+    font-family: "Livvic-Bold";
+}
+
+@media (max-width: 768px) {
+    .Desktop {
+        display: none !important;
+    }
+    .Mobile {
+        display: block !important;
+    }
+    body {
+        font-size:16px
+    }
+    h3{
+        font-size:26px;
+    }
+    header .dropdown-item{
+        text-align:left;
+    }
+    h2 {
+        padding-right: initial;
+        font-size: 40px;
+        text-align:center;
+    }
+    .btnBlanco{
+        width: 200px;
+        left: calc(50% - 100px);
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .imgJoseCuervoExpress,
+    .imgLaRojeña{
+        left: 0;
+    }
+}

@@ -1,0 +1,597 @@
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("../fonts/MyriadPro-Regular.eot");
+    src: url("../fonts/MyriadPro-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: "NoirPro-Bold";
+    src: url("../fonts/NoirPro-Bold.eot");
+    src: url("../fonts/NoirPro-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "NoirPro-Medium";
+    src: url("../fonts/NoirPro-Medium.eot");
+    src: url("../fonts/NoirPro-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "NoirPro-Regular";
+    src: url("../fonts/NoirPro-Regular.eot");
+    src: url("../fonts/NoirPro-Regular.woff") format("woff");
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+body header img{
+    max-width: 100%;
+    width: 150px;
+}
+body header #menu{
+    padding: 8px 0;
+}
+body header.scroll{
+    background:white;
+    position: fixed;
+}
+body header.scroll .text-light{
+    color:black !important;
+}
+body header .container{
+    padding: 5px 0;
+}
+#experienciaSuperDrinksVirtual .row #textTwo .linea_blanca, #experienciaC6Virtual .row #textTwo .linea_blanca{
+    margin-top:0;
+}
+.linea_blanca{
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin-top: 28px;
+}
+#home{
+    position: relative;
+}
+#home img#background{
+    max-width: 100%;
+    width: 100%;
+}
+#home img#backgroundM{
+    max-width: 100%;
+}
+#home img#homeLogoImg{
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 15%);
+    width: 25%;
+}
+#home img#homeTextImg{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 80px);
+    width: 32%;
+}
+
+#experiencias, #experienciaC6Virtual, #experienciaSuperDrinksVirtual{
+    padding-left: 20px;
+    position: relative;
+}
+#experienciaSuperDrinks{
+    position: relative;
+}
+#experiencias h2, #experienciaC6Virtual h2, #experienciaSuperDrinksVirtual h2{
+    font-size: 3vw;
+    padding: 50px 0px 50px 10px;
+    font-family: "NoirPro-Medium";
+}
+#experiencias .row, #experienciaC6Virtual .row, #experienciaSuperDrinksVirtual .row{
+    margin: 0;
+    width: 100%;
+}
+#experiencias .row p{
+    font-size: 23px;
+    font-family: "NoirPro-Regular";
+    padding-left: 20px;
+}
+#experiencias .row #linea{
+    position: absolute;
+    width: 30%;
+    padding: 79px 0 50px 0;
+}
+#experiencias .row #linea.right{
+    right: 0;
+}
+#experiencias .row #linea.left{
+    left: 0;
+}
+#experiencias .row .linea_blanca{
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin-top: 28px;
+}
+#experiencias .row .titleBold{
+    font-family: "NoirPro-Regular";
+    font-size: 50px;
+    display: block;
+	color: #E733F4;
+}
+#experiencias .row .txtExperiencias{
+    font-family: "NoirPro-Regular";
+    font-size: 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+#experiencias .row #txtExperienceDiv{
+    padding-top: 50px;
+}
+#logo_blanco_bottom{
+    width: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+#experiencias-dobel{
+    position: absolute;
+    bottom: 0;
+}
+#experienciaC6{
+    position:relative;
+}
+#background_c6{
+    max-width:100%;
+}
+#titleExperience{
+    position: absolute;
+    top: calc(50% - 80px);
+    left: 10%;
+    font-size: 34px;
+    font-family: "NoirPro-Medium";
+}
+#experienciaSuperDrinks #titleExperience{
+    top: calc(19% - 80px);
+}
+
+#titleExperience img{
+    width: 100%;
+}
+#experienciaC6_logo_blanco_bottom, #experienciaC62_logo_blanco_bottom{
+    position: absolute;
+    bottom: 30px;
+    right: 3%;
+    width: 10%;
+}
+#experiencias-dobel_c6, #experiencias-dobel_c62{
+    position: absolute;
+    bottom: 30px;
+    padding-left: 35px;
+}
+#titleExperienceVitual{
+    font-size: 34px;
+    font-family: "NoirPro-Regular";
+    padding-top: 61px;
+}
+
+    #titleExperienceVitual  .txtExperiencias, #titleExperienceVitual  .titleBold{
+        font-size:2.3vw !important;
+    }
+#background_experienciaC6Virtual{
+    width: calc(100% + 18px);
+    margin-left: -18px;
+    min-height: 900px;
+}
+#experienciaC6VirtualText{
+    position: absolute;
+    top: calc(48% - 370px);
+    width: calc(100% - 20px);
+}
+ #experienciaC6Virtual .row p{
+    font-size: 15px;
+    font-family: "NoirPro-Regular";
+    padding-top: 50px;
+}
+#experienciaC6Virtual .row p:first-child, #experienciaC6VirtualText .row p:first-child{
+    padding-right:20px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+#experienciaC6Virtual .row .titleBold, #experienciaC6VirtualText .row .titleBold{
+    font-family: "NoirPro-Regular";
+    font-size: 1.5vw;
+    display: block;
+    text-align: center;
+}
+#experienciaC6Virtual .row .linea_blanca, #experienciaC6VirtualText .row .linea_blanca{
+    margin-top: 18px;
+}
+#experienciaC6Virtual .row .txtExperiencias, #experienciaC6VirtualText .row .txtExperiencias{
+    display: block;
+    margin-top: 6px;
+    font-family: "NoirPro-Regular";
+    font-size: 1vw;
+}
+
+#experienciaC6Virtual #titleExperienceVitual .txtExperiencias{
+    height: auto;
+    display: block;
+    position: relative;
+    font-size: 2.3vw;
+    margin: 0;
+}
+#botom_experiencias-dobel_c62{
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 20px) !important;
+}
+.boldtxt{
+    font-size: 20px;
+    font-family: "NoirPro-Bold";
+    padding-bottom: 20px;
+    display: block;
+    /* text-align: center; */
+}
+.boldtxt small{
+    font-size: 14px;
+    font-family: "NoirPro-Regular";
+    /* margin-left: -15%; */
+}
+#experienciaC6Virtual .row #textTwo p{
+    padding: 0;
+}
+#background_contacto{
+    max-width: 100%;
+}
+#contact{
+    position: relative;
+}
+#contact form{
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: calc(50% - 250px);
+    width: 500px;
+    top: calc(50% - 297px);
+}
+#contact form span{
+    text-align: center;
+    font-family: "NoirPro-Medium";
+    font-size: 30px;
+    display: block;
+    margin-bottom: 50px;
+	color: #E733F4;
+}
+#contact form input, #contact form textarea{
+    display:block;
+    background: black;
+    box-shadow: none;
+    border: solid 1px #ccc;
+    margin: 20px 0;
+    padding: 15px 10px;
+    width: 100%;
+    font-family: "NoirPro-Medium";
+}
+#contact form button{
+    width:100%;
+    font-family: "NoirPro-Bold";
+    font-size: 26px;
+    padding: 10px 0;
+    border: none;
+    margin-top: 40px;
+}
+footer{
+    background-color: white;
+    color: black;
+}
+footer img{
+    max-width: 50px;
+}
+footer > div > div{
+    width: 500px;
+    padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    font-family: "MyriadPro-Regular";
+    font-size: 22px;
+}
+
+footer > div > div > span{
+    padding: 0 0 20px 0;
+    display: block;
+}
+footer > div > div > span#copy{
+    padding: 0 0 20px 0;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "NoirPro-Medium";
+}
+#unlocked video{
+    width:100%;
+}
+.Desktop{
+    display: block;
+}
+.Mobile{
+    display: none;
+}
+#experiencias #botellas .listaBotellas > div{
+    display: inline-block;
+}
+#TerminosCondicionesModal{
+    color: black;
+}
+
+    #TerminosCondicionesModal .modal-header > div{
+        display:block;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin-top: 39px;
+        border-bottom: solid 1px black;
+        padding-bottom: 15px;
+        font-family: "NoirPro-Bold";
+    }
+    .modal-header .btn-close{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        right: 30px;
+        top: 23px;
+    }
+    .modal-header, .modal-body, .modal-footer{
+        position:relative;
+        border: none;
+        padding: 20px 50px;
+    }
+.modal-body span{
+    display:block;
+    padding:10px 0;
+    font-family: "NoirPro-Medium";
+}
+
+    .btnTerminosCondiciones{
+        text-align:center;
+        padding:20px 40px;
+        font-family: "NoirPro-Bold";
+        border-radius: 0;
+    }
+.divTerminosCondiciones{
+    text-align: left;
+    padding-left: 10px;
+}
+#titleExperience .txtExperiencias{
+    font-size: 50px;
+}
+.modal-dialog{
+    width:90% !important;
+    padding: 0;
+    max-width: 90%;
+}
+@media (max-width:768px) {
+    .Desktop{
+        display: none;
+    }
+    .Mobile{
+        display: block;
+    }
+    #home img#homeLogoImg{
+        top: 11%;
+        left: calc(50% - 30%);
+        width: 63%;
+    }
+    #home img#homeTextImgM{
+        width: 50%;
+        position: absolute;
+        right: 0;
+        top: calc(55% - 80px);
+    }
+    body header{
+        position:relative;
+        background:white;
+    }
+    body header .text-light{
+        color:black !important;
+        padding: 20px 0;
+        font-family: "NoirPro-Medium";
+        font-size: 16px;
+    }
+    .navbar-brand.Mobile, .navbar-toggler{
+        padding:0 20px;
+    }
+    #menuItems{
+        padding-top:20px;
+        border-top:solid 1.5px black;
+        margin-top: 20px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .dropdown-menu{
+        border:none !important;
+    }
+    .dropdown-item{
+        padding-top:10px;
+        padding-bottom: 20px;
+    }
+    #experiencias .row #linea.right{
+        position:relative;
+        padding: 79px 0 0px 0;
+        height: 82px;
+        width: 50%;
+        margin: 0 -9px 0 auto;
+        display: block;
+    }
+    #experiencias h2, #experienciaC6Virtual h2, #experienciaSuperDrinksVirtual h2{
+        font-size:40px;
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+    }
+    #experiencias .row p{
+        font-size: 16px;
+        text-align: center;
+        padding: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #experiencias .row .titleBold{
+        font-size: 40px;
+    }
+    #experiencias .row .txtExperiencias:last-child{
+        margin-top: 0px;
+    }
+    #experiencias .row .txtExperiencias{
+        font-size: 25px;
+        margin-top: 12px;
+    }
+    #experiencias #botellas{
+        margin: 30px 0 80px 0;
+    }
+    #experiencias #botellas .listaBotellas{
+        margin-top: 125px;
+        padding: 0;
+    }
+    #experiencias #botellas .listaBotellas > div{
+        display:block;
+    }
+    .slick-dots li button:before{
+        color:white;
+        font-size: 10px;
+    }
+    .slick-dots li.slick-active button:before{
+        color:white;
+    }
+    .slick-slide img{
+        margin:0 auto;
+    }
+    .slick-slide.slick-active{
+        opacity: 1;
+    }
+    .slick-slide{
+        opacity: 0.5;
+    }
+    .slick-slide img{
+        height: 260px;
+        margin-top: 18px;
+    }
+    .slick-slide:last-child.slick-active img{
+        margin: 0 auto 0 0;
+    }
+    .slick-slide.slick-active img
+    {
+        height: auto;
+        margin-top: 0px;
+        margin: 0 31px 0 auto;
+    }
+    #experienciaC6Virtual #titleExperienceVitual .txtExperiencias{
+        font-size: 20px !important;
+    }
+    #experienciaC6Virtual .row #titleExperienceVitual .titleBold{
+        font-size: 20px !important;
+    }
+    #experienciaC6Virtual .row #titleExperienceVitual .row > div{        
+        padding:0;
+    }
+    #experienciaC6Virtual .row #titleExperienceVitual .row > div:nth-child(2){
+        padding-right: 15px;
+    }
+    #contact form{
+        left: 5%;
+        width: 90%;
+        position: absolute;
+        margin: 0 auto;
+        display: block;
+    }
+    footer > div > div{
+        width:100%;
+    }
+    #experienciaC6Virtual .row p:first-child{
+        padding: 20px 0;
+        text-align: center;
+    }
+    #background_experienciaC6Virtual{
+        height: 1400px;
+    }
+    #experienciaC6Virtual .row #textTwo .row, #experienciaSuperDrinksVirtual .row #textTwo .row{
+        position: relative !important;
+    }
+    #textTwo{
+        padding-top:20px;
+    }
+    #titleExperienceVitual .txtExperiencias{
+        font-size: 16px;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    #titleExperienceVitual .titleBold{
+        font-size: 20px;
+    }
+    #experienciaC6VirtualText p:first-child{
+        text-align:center;
+        padding-bottom: 0px !important;
+    }
+    #experienciaSuperDrinksVirtual .row #textTwo .row > div{
+        text-align:center;
+    }
+    #experiencias, #experienciaC6Virtual, #experienciaSuperDrinksVirtual{
+        padding-left:0;
+    }
+    header .text-center > .row, #experienciaSuperDrinks #titleExperience > .row, #experienciaC6 #titleExperience > .row{
+        padding:0;
+        margin:0;
+    }
+    #experienciaC6VirtualText{
+        width:90%;
+        left:5%;
+        top: calc(53% - 716.665px);
+    }
+    #botom_experiencias-dobel_c62Mobile{
+        padding-top: 40px;
+    }
+    .boldtxt{
+        font-size: 18px;
+    }
+    #experienciaC6Virtual #textTwo span, #experienciaSuperDrinksVirtual #textTwo span{
+        font-size: 28px !important;
+    }
+    .divTerminosCondiciones{
+        margin: 50px auto 20px auto;
+        text-align: center;
+    }
+    .slick-dots{
+        bottom: -45px;
+    }
+    #experienciaC6Virtual .row .txtExperiencias, #experienciaC6VirtualText .row .txtExperiencias{
+        font-size: 18px !important;
+    }
+    #experienciaC6Virtual .row .titleBold, #experienciaC6VirtualText .row .titleBold{
+        font-size: 20px !important;
+    }
+    #experienciaC6Virtual .row #textTwo p{
+         font-size:20px;
+    }
+    #titleExperience .txtExperiencias{
+        font-size: 22px;
+        line-height: 1;
+    }
+    #titleExperience .txtExperiencias br{
+      content: "";
+      margin: -19px;
+      display: block;
+      font-size: 24%;
+    }
+    .modal-dialog{
+         margin: 0 auto;
+    }
+    #experienciaSuperDrinks #titleExperience{
+        top: calc(20% - 80px);
+    }
+    #experienciaSuperDrinks #titleExperience .col-12.col-md-7{
+        margin-top: -20px;
+    }
+}

@@ -1,0 +1,95 @@
+%!Adobe-FontList 1.23
+%Locale:0x80a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\BauerBodoniStd-Roman.eot
+FileModTime:1683688858
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:BauerBodoniStd-Roman
+FamilyName:Bauer Bodoni Std 1
+StyleName:Roman
+FullName:BauerBodoniStd-Roman
+MenuName:Bauer Bodoni Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\BauerBodoniStd-Roman.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:63564
+FileModTime:1683688858
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,18,Bauer Bodoni Std
+NameArray:0,Mac,4,BauerBodoniStd-Roman
+NameArray:0,Win,1,Bauer Bodoni Std
+NameArray:0,Win,16,Bauer Bodoni Std 1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\BauerBodoniStd-Roman.woff
+FileModTime:1683688858
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\BauerBodoniStd-Roman.woff2
+FileModTime:1683688858
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\Inter-Regular.eot
+FileModTime:1683688859
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Inter-Regular
+FamilyName:Inter
+StyleName:Regular
+FullName:Inter Regular
+MenuName:Inter
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\Inter-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:420164
+FileModTime:1683688859
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Inter
+NameArray:0,Mac,4,Inter Regular
+NameArray:0,Win,1,Inter
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\Inter-Regular.woff
+FileModTime:1683688859
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Lenovo\Desktop\Cuervo\Experiencias\400 Conejos\Font\Inter-Regular.woff2
+FileModTime:1683688860
+%EndFont
+

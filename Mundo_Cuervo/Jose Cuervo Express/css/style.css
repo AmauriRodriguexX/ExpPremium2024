@@ -1,0 +1,537 @@
+@font-face {
+    font-family: "GandhiSerif-Bold";
+    src: url("../font/GandhiSerif-Bold.eot");
+    src: url("../font/GandhiSerif-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "Livvic-Regular";
+    src: url("../font/Livvic-Regular.eot");
+    src: url("../font/Livvic-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LinLibertineB";
+    src: url("../font/LinLibertineB.eot");
+    src: url("../font/LinLibertineB.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Livvic-Medium";
+    src: url("../font/Livvic-Medium.eot");
+    src: url("../font/Livvic-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Livvic-SemiBold";
+    src: url("../font/Livvic-SemiBold.eot");
+    src: url("../font/Livvic-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Livvic-Bold";
+    src: url("../font/Livvic-Bold.eot");
+    src: url("../font/Livvic-Bold.woff") format("woff");
+}
+body {
+    font-family: "Livvic-Regular";
+    font-size: 1.2vw;
+}
+body header{
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+body header img {
+    max-width: 100%;
+    width: 150px;
+}
+
+body header #menu {
+    padding: 8px 0;
+}
+
+body header.scroll {
+    background: white;
+    position: fixed;
+    margin-top: 0;
+}
+header .dropdown-item{
+    text-align:right;
+}
+body header.scroll .text-light {
+    color: black !important;
+}
+
+body header .container {
+    padding: 5px 0;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.nav-link,
+.navbar-expand-sm .navbar-nav .nav-link{
+    color:white;
+}
+.scroll .navbar-nav .nav-link.active,
+.scroll .navbar-nav .nav-link.show,
+.scroll .nav-link,
+.scroll .navbar-expand-sm .navbar-nav .nav-link{
+    color:black;
+}
+#home #joseCuervo{
+        position:absolute;
+        top: 19%;
+        width:60%;
+        left: 20%;
+}
+#home #background,
+#amanecerAtardecer #backgroundAmanecerAtardecer{
+    max-width: 100%;
+    width: 100%;
+}
+#amanecerAtardecerImg{
+    position:absolute;
+    top: 16%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#amanecerAtardecerImg a{
+    color:white;
+    text-decoration:none;
+}
+
+#amanecerAtardecerImg span{
+    font-size: 5vw;
+    font-family: "Livvic-SemiBold";
+    padding: 5% 0;
+    display: block;
+}
+#amanecerAtardecerImg img{
+    max-width: 10%;
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu{
+    left:-124px;
+}
+.absoluteDiv{
+    position: absolute;
+    top: 5%;
+}
+#express .absoluteDiv{
+    margin-left:0;
+}
+.Desktop {
+    display: block;
+}
+
+.Mobile {
+    display: none !important;
+}
+section {
+    position:relative;
+    /* padding: 80px 0; */
+}
+section > .row{
+    max-width:100%;
+    width: 100%;
+}
+.subtitleSection{
+    text-align:center;
+    display:block;
+    position:absolute;
+    bottom: 5%;
+    width: 100%;
+    color: white;
+    font-size: 1.8vw;
+    font-family: "LinLibertineB";
+}
+.titleSection{
+    text-align:center;
+    display:block;
+    position:absolute;
+    width: 100%;
+    color: white;
+    font-size: 5vw;
+    font-family: "GandhiSerif-Bold";
+    top: 2%;
+}
+#itinerariosAmanecer .titleSection,
+#itinerariosAtardecer .titleSection{
+    font-size: 2.5vw;
+    top: 0%;
+    margin-top: 1%;
+    text-align: left;
+    padding-left: 3%;
+}
+#itinerariosAmanecer .descubre,
+#itinerariosAtardecer .descubre{
+    display: inline-block;
+    width: 49%;
+}
+#itinerariosAmanecer .qr,
+#itinerariosAtardecer .qr{
+    width: 27%;
+    border-left: solid 4px black;
+    padding-left: 2%;
+    margin-left: 2%;
+}
+#elite .titleSection{
+    top: 41%;
+}
+#premiumPlus .titleSection{
+    top: 41.5%;
+}
+#tren .titleSection{
+    top: 4.5%;
+}
+img{
+    width: 100%;
+}
+h2{
+    padding-right: 2vw;
+    font-size: 3vw;
+}
+h3{
+    font-size: 3.5vw;
+}
+span{
+    font-size: 1.2vw;
+    font-family: "Livvic-Regular";
+}
+li strong,
+strong{
+    font-family: "Livvic-SemiBold";
+}
+ul {
+    list-style-type: none;
+}
+ul.yellow{
+    list-style-image: url("../img/icon.png");
+}
+ul.yellow li{
+    padding-left:10px;
+}
+ul.black{
+    list-style-image: url("../img/icon2.png");
+    padding-left: 10%;
+}
+ul.black li{
+    padding-left:10px;
+}
+.slimTxt{
+    font-size: 0.6vw;
+}
+#premiumPlus .tarifas,
+#diamante .tarifas,
+#elite .tarifas{
+    background: transparent;
+}
+#premiumPlus .tarifas .col-md-8,
+#diamante .tarifas .col-md-9,
+#elite .tarifas .col-md-8{
+    background-color: #1d1d1b;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+}
+.tarifas{
+    background-color: #1d1d1b;
+    color: white;
+    padding: 2% 0% 6% 0%;
+    margin-left: calc(var(--bs-gutter-x) * -0.8);
+    margin-right: calc(var(--bs-gutter-x) * -0.3);
+    TEXT-ALIGN: CENTER;
+}
+.tarifas span:not(.slimTxt){
+    font-family: "Livvic-Bold";
+}
+.tarifas span:not(.slimTxt).likeButton{
+    font-family: "Livvic-SemiBold";
+    font-size: 1.2vw;
+    margin-top: 10px;
+    display: inline-block;
+}
+.textWhite{
+    color: #FFF;
+    font-weight:bolder;
+    font-size: 2.5vw;
+    font-family: "Livvic-Bold";
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 8%;
+}
+.likeButton{
+    color:white;
+    background-color: #b39c59;
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-family: "Livvic-SemiBold";
+    font-size: 1.3vw;
+}
+.textYellow{
+    color: #cd1316;
+    font-weight:bolder;
+    font-size: 1.5vw;
+    font-family: "Livvic-Bold";
+}
+.row.absoluteDiv p{
+    display:block;
+    text-align:center;
+}
+.row.absoluteDiv p strong{
+    font-family: "Livvic-Bold";
+}
+#tren h2{
+    font-family: "GandhiSerif-Bold";
+    font-weight: normal;
+    text-align: center;
+    margin-left: -3%;
+}
+#contacto form span.textRed{
+    text-align: center;
+    display: block;
+}
+#contacto form input,
+#contacto form textarea {
+    display: block;
+    background: transparent;
+    box-shadow: none;
+    margin: 1vw 0;
+    width: 100%;
+    color: #FFF;
+    border: solid 1px #FFF;
+    padding: 10px 10px;
+    font-family: "Livvic-Regular";
+}
+
+#contacto form input:focus-visible,
+#contacto form textarea:focus-visible {
+    outline: none;
+}
+
+#contacto form button {
+    width:100%;
+    padding: 1vw 3vw;
+    border: solid 1px #FFF;
+    margin-top: 40px;
+    background: #FFF;
+    color: #b39c59;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    font-family: "Livvic-Bold";
+}
+
+footer {
+    background-color: white;
+    color: black;
+    position: relative;
+}
+
+footer img {
+    max-width: 50px;
+}
+footer a{
+    text-decoration:none;
+    margin-right: 0px;
+}
+footer>div>div {
+    width: 800px;
+    padding: 50px 0;
+    display: block;
+    margin: 0 auto;
+    font-family: "LinLibertineB";
+    font-size: 22px;
+    max-width: 100%;
+}
+
+footer>div>div>span {
+    padding: 0 0 20px 0;
+    display: block;
+}
+
+footer>div>div>span#copy {
+    padding: 0 0 20px 0;
+    display: block;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "LinLibertineB";
+}
+.yelow{
+    color:#b39c59;
+    font-family: "Livvic-SemiBold";
+}
+@media (max-width: 768px) {
+    .Desktop {
+        display: none !important;
+    }
+    .Mobile {
+        display: block !important;
+    }
+    header .container .row {
+        max-width: 100%;
+    }
+    body {
+        font-size:16px
+    }
+    body header .container {
+        background: white;
+        padding: 0;
+        margin: 0 auto !important;
+        display: block;
+    }
+    .navbar-brand.Mobile {
+        padding-left: 20px;
+    }
+    h3{
+        font-size:26px;
+    }
+    header .dropdown-item{
+        text-align:left;
+    }
+    h2 {
+        padding-right: initial;
+        font-size: 40px;
+        text-align:center;
+    }
+    header .nav-link{
+        color:black !important;
+    }
+    body header{
+        position:relative;
+        margin-top: 0;
+    }
+    
+    
+    header .container .nav-link {
+        color: black !important;
+        text-align: left;
+        padding: 20px 0 20px 40px;
+    }
+    header .nav-link{
+        color:black !important;
+    }
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show,
+    .nav-link,
+    .navbar-expand-sm .navbar-nav .nav-link{
+        color:black;
+    }
+    .subtitleSection{
+        font-size: 16px;
+        width: 90%;
+        left: 5%;
+        bottom: 9%;
+    }
+
+    #amanecerAtardecerImg img{
+        max-width: 32%;
+    }
+    #amanecerAtardecerImg span{
+        font-size: 53px;
+        padding-top: 27%;
+    }
+    .titleSection{
+        font-size: 36px;
+        top: 18px !important;
+    }
+    #itinerariosAmanecer .titleSection, 
+    #itinerariosAtardecer .titleSection{
+        
+font-size: 27px;
+        
+text-align: center;
+    }
+    span{
+        font-size:16px;
+    }
+    .likeButton{
+        font-size: 24px;
+        text-align: center;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tarifas{
+        padding: 20px 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .tarifas span:not(.slimTxt){
+        font-size: 20px;
+    }
+    .tarifas span:not(.slimTxt).likeButton{
+        font-size: 20px;
+    }
+    .slimTxt{
+        font-size:14px;
+        margin-top: 20px;
+        display: block;
+    }
+    #home #joseCuervo{
+        width:90%;
+        left: 5%;
+        top: 29%;
+    }
+    #premiumPlus .tarifas,
+    #diamante .tarifas,
+    #elite .tarifas{
+        background-color: #1d1d1b;
+        position: relative;
+    }
+    
+    #premiumPlus .tarifas .row,
+    #diamante .tarifas .row,
+    #express .tarifas .row,
+    #elite .tarifas .row{
+        margin: 0;
+    }
+    .textYelow{
+        font-size:20px;
+    }
+    #express .absoluteDiv{
+    /* left: 5%; */
+    margin: 50px auto 25px auto;
+    }
+    #contacto .absoluteDiv{
+        position:absolute;
+        left: 10%;
+    }
+    .absoluteDiv{
+        position:relative;
+        width: 90% !important;
+        margin: 50px auto;
+        /* padding-top: 35px; */
+        /* left: 5%; */
+    }
+    #contacto form {
+        width: 90%;
+        top: 49%;
+    }
+
+    #contacto form input,
+    #contacto form textarea {
+        margin: 2vw 0;
+    }
+
+    #contacto form span {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #contacto form button {
+        font-size: 20px;
+        width: 100%;
+        padding: 20px;
+    }
+    .codeQR{
+        text-align:center;
+    }
+    #contacto form textarea {
+        height: 60px;
+    }
+    ul.yellow{
+        
+margin-bottom: 0;
+    }
+}
