@@ -21,6 +21,7 @@ body {
     background-color: black;
     color: white;
     font-family: "Cinzel-Regular";
+    
 }
 
 body header{
@@ -613,3 +614,4 @@ footer>div>div>span#copy {
 .no-margin {
     margin: 0;
 }
+

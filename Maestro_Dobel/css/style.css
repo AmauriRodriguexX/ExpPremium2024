@@ -202,21 +202,23 @@ body header .container{
 }
 
 
+/* Estilo para dispositivos móviles */
 #experienciaC6VirtualText03{
     position: absolute;
-    top: calc(34% - 370px);
+    top: calc(33% - 370px);
     width: calc(100% - 20px);
     left: 8px;
 }
-/* Media query para dispositivos móviles */
-@media only screen and (max-width: 768px) {
-    #experienciaC6VirtualTex03{
-        position: absolute;
-        top: calc(39% - 370px);
-        width: calc(100% - 20px);
-        left: 16px;
+
+/* Estilo para dispositivos de escritorio */
+@media (min-width: 1024px) {
+    #experienciaC6VirtualText03{
+        top: calc(53% - 370px);
+        left: 32px;
     }
 }
+
+
 
 
 #experienciaC6VirtualText02{
