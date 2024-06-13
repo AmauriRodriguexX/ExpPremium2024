@@ -362,3 +362,8 @@ footer>div>div>span#copy {
         max-width:85px;
     }
 }
+
+
+.hide-element {
+    display: none;
+}

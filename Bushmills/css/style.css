@@ -89,6 +89,7 @@ span{
     font-size: 1.2vw;
     font-family: "SuperclarendonLt";
 }
+
 ul {
     list-style-type: none;
 }
@@ -142,8 +143,8 @@ ul {
 }
 #divQueIncluye{
     position: absolute;
-    top: calc(50% - 25%);
-    left: calc(30% - 19%);
+    top: calc(34% - 25%);
+    left: calc(36% - 19%);
 }
 #divQueIncluye UL{
     padding:0;
@@ -151,7 +152,7 @@ ul {
 #divQueIncluye li{
     font-size:1.5vw;
     text-align:left;
-    padding:10px 0;
+    padding:8px 0;
     font-family: "SuperclarendonLt";
 }
 #LogoImg{
@@ -411,10 +412,12 @@ footer>div>div>span#copy {
         /* margin-left: 15px; */
     }
     
-    #divExperiencia{
+    #divExperiencia {
         left: 5%;
-        top: 150px;
         max-width: 90%;
+        position: absolute;
+        top: 50%;
+         transform: translateY(-50%);
     }
     .modal-dialog{
         margin: 0 auto;
@@ -572,4 +575,41 @@ footer>div>div>span#copy {
     header .dropdown-item{
         text-align:left;
     }
+}
+
+.hide-element {
+    display: none;
+}
+
+.grill-session {
+    font-weight: 300;
+    color: #fff;
+}
+
+.text-balance {
+    text-wrap: balance;
+}
+
+.text-pretty {
+    text-wrap: pretty;
+}
+
+
+.d-104 {
+    font-weight: 600;
+    color: #CC9F50;
+}
+
+.d-104 p {
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.btn-postion {
+    transform: translate(0px, -46px);
+}
+
+
+.no-margin {
+    margin: 0;
 }
