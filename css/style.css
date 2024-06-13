@@ -46,6 +46,17 @@ body header.scroll .text-light {
 body header .container {
     padding: 5px 0;
 }
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-0* var(--bs-gutter-x));
+}
+
 #home{
     overflow: hidden;
 }
@@ -67,27 +78,109 @@ body header .container {
     position: absolute;
     top: calc(62% - 1px);
 }
+
 #Experiencias {
-    padding: 100px 60px 100px 0px;
+    padding: 24px 60px 100px 0px;
 }
-#Experiencias .experienciasVirtuales a:hover{
-    background-color:white;
-    color: black;
-    
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    #Experiencias {
+        padding: 8px 0px 100px 0px;
+    }
 }
-#Experiencias .experienciasVirtuales a{
-    text-align:center;
-    text-decoration:none;
+
+
+#Experiencias .experienciasVirtuales img {
+    display: block; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+    width: 65%; /* Asegura que la imagen sea responsiva */
+}
+
+
+#Experiencias .experienciasVirtuales .button-mid {
+    font-family: "Exo2-Bold";
+    text-align: center;
+    text-decoration: none;
     border-radius: 15px;
-    margin: 20px 80px;
-    display: block;
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    height: 71px;
+    display: flex; /* Cambia a flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background: #EEECE70A 0% 0% no-repeat padding-box;
     padding: 16px;
-    color:white;
-    border: 1px solid white;
+    color: #EEECE7;
+    border: 1px solid #EEECE780;
+    width: 65%; /* Ajusta el ancho al tamaño del contenedor principal */
+    max-width: 100%; /* Asegura que no exceda el tamaño del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el border en el tamaño total */
+    font-size: 14px;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, font-size 0.2s ease; /* Añade la transición */
 }
+
+/* Efecto hover */
+#Experiencias .experienciasVirtuales .button-mid:hover {
+    color: #EEECE7; /* Cambia el color del texto al pasar el ratón */
+    border: 1px solid #EEECE7; /* Cambia el color del borde al pasar el ratón */
+    letter-spacing: 0px;
+    background: transparent;
+    font-size: 15px;
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    #Experiencias .experienciasVirtuales img {
+        display: block;
+        /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
+        width: 85%;
+        /* Asegura que la imagen sea responsiva */
+    }
+
+    #Experiencias .experienciasVirtuales .button-mid {
+        font-family: "Exo2-Bold";
+        text-align: center;
+        text-decoration: none;
+        border-radius: 15px;
+        margin: 8px auto;
+        height: 71px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #EEECE70A 0% 0% no-repeat padding-box;
+        padding: 16px;
+        color: #EEECE7;
+        border: 1px solid #EEECE780;
+        width: 85%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 14px;
+        transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, font-size 0.2s ease;
+    }
+
+    /* Efecto hover */
+    #Experiencias .experienciasVirtuales .button-mid:hover {
+        color: #EEECE7;
+        border: 1px solid #EEECE7;
+        letter-spacing: 0px;
+        background: transparent;
+        font-size: 15px;
+    }
+
+}
+
+
 #Experiencias .experienciasVirtuales{
     padding: 50px 0px 50px 100px;
 }
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    #Experiencias .experienciasVirtuales{
+        padding: 50px 0px 50px 2px;
+    }
+}
+
+
 #Experiencias .experienciasVirtuales.dos{
     padding: 150px 0px 50px 100px;
 }

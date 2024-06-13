@@ -191,6 +191,39 @@ body header .container{
     top: calc(48% - 370px);
     width: calc(100% - 20px);
 }
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    #experienciaC6VirtualText{
+        position: absolute;
+        top: calc(39% - 370px);
+        width: calc(100% - 20px);
+        left: 16px;
+    }
+}
+
+
+#experienciaC6VirtualText03{
+    position: absolute;
+    top: calc(34% - 370px);
+    width: calc(100% - 20px);
+    left: 8px;
+}
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    #experienciaC6VirtualTex03{
+        position: absolute;
+        top: calc(39% - 370px);
+        width: calc(100% - 20px);
+        left: 16px;
+    }
+}
+
+
+#experienciaC6VirtualText02{
+    width:90%;
+    left:5%;
+    top: calc(70% - 716.665px);
+}
  #experienciaC6Virtual .row p{
     font-size: 15px;
     font-family: "NoirPro-Regular";
@@ -505,6 +538,7 @@ footer > div > div > span#copy{
         position: absolute;
         margin: 0 auto;
         display: block;
+        top: 32px;
     }
     footer > div > div{
         width:100%;
@@ -514,8 +548,15 @@ footer > div > div > span#copy{
         text-align: center;
     }
     #background_experienciaC6Virtual{
-        height: 1400px;
+        height: 1100px;
     }
+
+
+    #background_experienciaC6Virtual09{
+        height: 1300px !important;
+    }
+
+
     #experienciaC6Virtual .row #textTwo .row, #experienciaSuperDrinksVirtual .row #textTwo .row{
         position: relative !important;
     }
@@ -545,11 +586,29 @@ footer > div > div > span#copy{
         padding:0;
         margin:0;
     }
-    #experienciaC6VirtualText{
+
+    
+    #experienciaC6VirtualText02 {
+        width: 90%;
+        left: 5%;
+        top: calc(53% - 716.665px); /* Valor para escritorio */
+    }
+    
+    /* Media query para dispositivos móviles */
+    @media only screen and (max-width: 768px) {
+        #experienciaC6VirtualText02 {
+            top: calc(70% - 716.665px); /* Valor para móviles */
+        }
+    }
+
+
+    #experienciaC6VirtualText02{
         width:90%;
         left:5%;
-        top: calc(53% - 716.665px);
+        top: calc(70% - 716.665px);
     }
+
+
     #botom_experiencias-dobel_c62Mobile{
         padding-top: 40px;
     }
@@ -595,3 +654,21 @@ footer > div > div > span#copy{
         margin-top: -20px;
     }
 }
+
+.main-text-dobel {
+    color: #E733F4;
+}
+
+
+.hide-element {
+    display: none;
+}
+
+
+.contact-section {
+    block-size: auto;
+    aspect-ratio: 1 / 1;
+    height: 738px;
+}
+
+
