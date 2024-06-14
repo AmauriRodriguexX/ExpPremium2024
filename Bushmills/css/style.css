@@ -109,10 +109,15 @@ ul {
 }
 #divExperiencia{
     position: absolute;
-    top: calc(50% - 150px);
-    left: calc(50% - 570px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 1200px;
+    height: 300px; 
 }
 #divJourney{
     position: absolute;
@@ -613,5 +618,9 @@ footer>div>div>span#copy {
 
 .no-margin {
     margin: 0;
+}
+
+.space-gold {
+    margin-bottom: 24px;
 }
 

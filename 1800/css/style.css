@@ -738,15 +738,23 @@ footer>div>div>span#copy {
     .slick-dots li.slick-active button:before{
         color:white;
     }
-    .btnTerminosCondiciones{
-        text-align:center;
-        display:block;
+    .btnTerminosCondiciones {
+        text-align: center;
+        display: block;
         margin: 0 auto;
         padding: 0;
         font-size: 12px;
         width: 66%;
-        height: 35px;
+        height: 50px;
         margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    
+    /* Estilo específico para dispositivos de escritorio */
+    @media (min-width: 992px) {
+        .btnTerminosCondiciones {
+            height: 35x;
+        }
     }
     #logoHeader{
         width: 70px;

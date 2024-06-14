@@ -255,7 +255,7 @@ ul {
 }
 .lineaBlancaDerecha{
     right: 0px;
-    width: 14%;
+    width: 56%;
     display: block;
     height: 1px;
     background: white;
@@ -825,3 +825,69 @@ footer>div>div>span#copy {
         top: calc(50% - 50%);
     }
 }
+
+/* Propiedades generales para dispositivos de escritorio */
+.center-element {
+    display: flex;
+    justify-content: center;
+}
+
+/* Anular propiedades para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .center-element {
+        display: block; /* O cualquier otra propiedad que desees para móviles */
+        justify-content: flex-start; /* O cualquier otro valor que prefieras */
+    }
+}
+
+
+
+/* Propiedades generales para dispositivos de escritorio */
+.center-element-02 {
+    display: flex;
+    justify-content: center;
+    transform: translate(28px, 0px);
+}
+
+/* Anular propiedades para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .center-element-02 {
+        display: block; /* O cualquier otra propiedad que desees para móviles */
+        justify-content: flex-start; /* Anula justify-content */
+        transform: none; /* Anula la propiedad transform */
+    }
+}
+
+
+
+
+/* Propiedades generales para dispositivos de escritorio */
+.up-element{
+    position: absolute;
+    right: 0px;
+    bottom: 60px;
+}
+
+
+/* Anular propiedades para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .up-element {
+        position: static; /* O cualquier otra propiedad que desees para móviles */
+        right: auto; /* Anula la propiedad right */
+        bottom: auto; /* Anula la propiedad bottom */
+    }
+
+    .lineaBlancaDerecha{
+        right: 0px;
+        width: 14%;
+        display: block;
+        height: 1px;
+        background: white;
+        position: absolute;
+        margin-top: -2%;
+    }
+}
+
+
+
+

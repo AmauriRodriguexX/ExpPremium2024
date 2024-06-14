@@ -184,6 +184,17 @@ body header .container {
 #Experiencias .experienciasVirtuales.dos{
     padding: 150px 0px 50px 100px;
 }
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    #Experiencias .experienciasVirtuales.dos{
+        padding: 0px 0px 50px 0px;
+    }
+    
+}
+
+
+
 .lineaBlanca.extra{
     width: 107%;
 }
@@ -346,10 +357,7 @@ footer>div>div>span#copy {
     #Experiencias .experienciasVirtuales a{
         margin: 24px -1px 0px 0px;
     }
-    #Experiencias .experienciasVirtuales.dos{
-        padding: 10px 0px 50px 100px;
-    }
-    
+
     #Experiencias img{
         width:100%;
         margin: 0 auto;
@@ -367,3 +375,10 @@ footer>div>div>span#copy {
 .hide-element {
     display: none;
 }
+
+.left-element {
+    text-align: left;
+    transform: translate(58px, 0px);
+}
+
+
